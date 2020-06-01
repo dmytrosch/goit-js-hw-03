@@ -7,7 +7,7 @@ const account = {
   balance: 0,
   transactions: [],
   createTransaction(amount, type) {
-    return { id: Math.random(), amount: amount, type: type };
+    return { id: Math.random(), amount, type };
   },
 
   deposit(amount) {
